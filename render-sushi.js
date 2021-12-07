@@ -1,10 +1,17 @@
 export function renderSushi(sushiData) {
-    const p = document.createElement('p');
-    p.textContent = sushiData;
-    p.classList.add('sushiData');
 
-    if
+    const div = document.createElement('div');
+    const pName = document.createElement('p');
+    const img = document.createElement('img');
+    const pPrice = document.createElement('p');
 
+    div.classList.add('sushi');
+    div.style.backgroundColor = 'lightgrey';
 
-    return p;
+    pName.textContent = sushiData.name;
+    img.src = sushiData.image;
+    pPrice.textContent = sushiData.price;
+    
+    div.append(pName, img, pPrice);
+    return div;
 }
