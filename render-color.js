@@ -23,5 +23,9 @@ export function renderColor(colorData) {
         p.style.backgroundColor = 'lightblue';
     }
 
+    if (colorData === 'violet') {
+        p.style.backgroundColor = 'violet';
+    }
+
     return p;
 }

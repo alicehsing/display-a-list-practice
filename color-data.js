@@ -3,5 +3,6 @@ export const colorsArr = [
     'orange', 
     'yellow', 
     'green', 
-    'blue'
+    'blue',
+    'violet'
 ];
