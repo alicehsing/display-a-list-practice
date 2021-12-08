@@ -173,8 +173,8 @@ footer {
     align-items: center;
     justify-content: center;
     height: 200px;
+    width: 800px;
     margin: 10px;
-    width: 600px;
 }
 
 
@@ -215,7 +215,7 @@ footer {
 }
 
 .post .reply {
-    background-color: lightsteelblue;
+    background-color: rgb(198, 214, 235);
     align-self: flex-end;
     margin: 10px;
     width: fit-content;

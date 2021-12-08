@@ -3,7 +3,7 @@ export function renderPost(postData) {
     const p = document.createElement('p');
 
     div.classList.add('post');
-    p.textContent = `${postData.user} says: "${postData.title}"`;
+    p.textContent = `${postData.user} asks: "${postData.title}"`;
     div.append(p);
 
     for (let reply of postData.replies) {
