@@ -3,9 +3,9 @@ export const postsArr = [
         title: 'Should I buy a house in Portland?',
         user: 'mousehunt-26',
         replies: [
-            'you should',
-            'are you crazy? Portland\'s house market is skyrocket high! wait til market cools down a a bit',
-            'only if you can afford it'
+            'You should!',
+            'Are you crazy? Portland\'s house market is skyrocket high! Wait til market cools down a a bit.',
+            'Only if you can afford it...I wished I had bought it 5 years ago...'
         ]
     },
     {

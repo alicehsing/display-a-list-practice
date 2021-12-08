@@ -3,7 +3,7 @@ export const princessArr = [
         name: 'Jasmine', 
         age: 28,
         image: './assets/jasmine.png',
-        pet: 'Tiger Rajah',
+        friend: 'Tiger Rajah',
         enemy: {
             name: 'Jafar',
             weapon: 'snake staff',
@@ -14,7 +14,7 @@ export const princessArr = [
         name: 'Snow White', 
         age: 18,
         image: './assets/snow-white.png',
-        pet: 'The Seven Dwarfs',
+        friend: 'The Seven Dwarfs',
         enemy: {
             name: 'The Queen',
             weapon: 'poison apple',
@@ -25,7 +25,7 @@ export const princessArr = [
         name: 'Ariel', 
         age: 20,
         image: './assets/ariel.png',
-        pet: 'Flounder',
+        friend: 'Flounder',
         enemy: {
             name: 'Ursula',
             weapon: 'The Trident',
