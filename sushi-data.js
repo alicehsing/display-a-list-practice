@@ -1,4 +1,9 @@
-export const sushis = [
+export const sushisArr = [
+    {
+        name: 'shrimp', 
+        image: './assets/shrimp.png',
+        price: '$2.5'
+    },  
     {
         name: 'yellowtail', 
         image: './assets/yellowtail.png',
@@ -9,10 +14,5 @@ export const sushis = [
         name: 'salmon', 
         image: './assets/salmon.png',
         price: '$3'
-    },
-    {
-        name: 'shrimp', 
-        image: './assets/shrimp.png',
-        price: '$2.5'
-    }      
+    } 
 ];
